@@ -189,3 +189,88 @@ footer a {
     font-weight: bold;
     margin-left: 80px;
 }
+
+    @media screen and (min-width: 300px) and (max-width: 768px) {
+    .introducao {
+        text-align: justify;
+        box-sizing: border-box;
+    }
+    .logo {
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    .introducao h1 {
+        font-family: "Raleway", sans-serif;
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .introducao h3 {
+        font-family: "Quicksand", sans-serif;
+        font-size: 13px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .iframe {
+        margin-bottom: 30px;
+    }
+    #principal {
+        width: 100%;
+    }
+    .itens {
+        margin-top: 10px;
+        width: 80%;
+    }
+    .itens img {
+        width: 40vh;
+    }
+    .itens h2 {
+        font-family: "Quicksand", sans-serif;
+        font-size: 1rem;
+        color: white;
+        font-weight: bold;
+    }
+    .itens a {
+        font-family: "Quicksand", sans-serif;
+        font-size: 1rem;
+        color: white;
+        font-weight: bold;
+    }
+    .infor {
+        text-align: justify;
+    }
+    .infor h4 {
+        text-align: center;
+        font-family: "Quicksand", sans-serif;
+        font-size: 1.2rem;
+        color: white;
+        font-weight: bold;
+    }
+    .infor p {
+        font-family: "Quicksand", sans-serif;
+        font-size: 13px;
+        color: rgb(255, 254, 254);
+        line-height: 1.5em;
+    }
+    footer {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    footer span {
+        font-family: "Quicksand", sans-serif;
+        font-size: 10px;
+        color: white;
+    }
+    footer a {
+        font-family: "Quicksand", sans-serif;
+        font-size: 10px;
+        color: white;
+    }
+}
