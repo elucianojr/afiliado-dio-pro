@@ -196,8 +196,7 @@ footer a {
         box-sizing: border-box;
     }
     .logo {
-        padding-top: 50px;
-        box-sizing: border-box;
+       display: none;
     }
     .introducao h1 {
         font-family: "Raleway", sans-serif;
@@ -210,12 +209,9 @@ footer a {
         font-size: 13px;
         color: white;
         font-weight: bold;
-        margin-bottom: 20px;
+        
     }
-    .iframe {
-        margin-bottom: 30px;
-        padding-top: 50px;
-    }
+   
     #principal {
         width: 100%;
     }
