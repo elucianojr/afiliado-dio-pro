@@ -68,14 +68,18 @@ header p {
     display: flex;
     flex-wrap: wrap;
 }
-.principal-privacidade {
-    background-color: white;
-    color: black;
+background-color: rgba(61, 17, 184, 0.404);
+    color: rgb(247, 245, 245);
     font-family: "Quicksand", sans-serif;
-    font-size: 1.1vw;
+    font-size: 1rem;
     box-sizing: border-box;
     padding: 50px;
     text-align: justify;
+    line-height: 1.2rem;
+    letter-spacing: 0.3vh;
+}
+.principal-privacidade h1{
+    margin-bottom: 20px;
 }
 .itens {
     width: 347px;
