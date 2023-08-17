@@ -68,6 +68,7 @@ header p {
     display: flex;
     flex-wrap: wrap;
 }
+.principal-privacidade {
 background-color: rgba(61, 17, 184, 0.404);
     color: rgb(247, 245, 245);
     font-family: "Quicksand", sans-serif;
