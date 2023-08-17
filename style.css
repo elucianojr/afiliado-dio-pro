@@ -218,6 +218,12 @@ footer a {
     #principal {
         width: 100%;
     }
+    .principal-privacidade {
+        padding: 15px;
+        margin: 0;
+        letter-spacing: normal;
+        line-height: normal;
+    }
     .itens {
         margin-top: 10px;
         width: 80%;
